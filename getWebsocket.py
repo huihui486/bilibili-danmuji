@@ -16,11 +16,7 @@ class BiliSocket():
         self.heartbeatInterval = 30
         # 关闭标志位
         self.__closeFlag = False
-        # 弹幕列表
-        self.comList = []
-        # 列表锁，防止数据混乱
-        self.Lock = threading.RLock()
-        # 允许加入列表标志
+        # 允许显示标志
         self.allowFlag = False
         # header
         self.headers = {
