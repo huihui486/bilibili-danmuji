@@ -1,10 +1,10 @@
 from preparation import *
-
+import os.path
 
 
 class AboutInfo():
     def __init__(self):
-        self.path = os.getcwd() + r'\config\关于.txt'
+        self.path = os.path.join("config", "关于.txt")
         self.info = '# 声明：\n'\
                     '此软件只做学习交流，禁止商用\n\n'\
                     '# 项目/资料地址：\n'\
