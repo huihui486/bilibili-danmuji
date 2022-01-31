@@ -1,6 +1,6 @@
 from preparation import *
 import os.path
-
+import subprocess, sys
 
 class AboutInfo():
     def __init__(self):
@@ -26,5 +26,6 @@ class AboutInfo():
 
     def show(self):
         self.__addInfo()
-        os.startfile(self.path)
+        opener = "open" if sys.platform == "darwin" else "xdg-open"
+        subprocess.call([opener, self.path])
 
