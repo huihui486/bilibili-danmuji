@@ -1,12 +1,12 @@
 # B站直播弹幕姬
 
 #### 介绍
-应用python+websocket和pyqt5的bilibili直播弹幕姬。
+应用python+websocket和pyqt5的bilibili直播弹幕。
 支持修改窗口大小、透明度，弹幕大小、颜色、字体等。
 
 #### 软件架构
 前端使用pyqt5，后端使用python+websocket协议
-
+作者只在window下测试过，其他平台请自行测试
 
 #### 详情链接
 
