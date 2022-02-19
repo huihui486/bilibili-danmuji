@@ -32,4 +32,5 @@ class AboutInfo():
             subprocess.call(['start', self.path],shell=True)
         else:
             opener = "open" if sysType == "darwin" else "xdg-open"
-            subprocess.call([opener, self.path])  
+            subprocess.call([opener, self.path]) 
+            
