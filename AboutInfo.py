@@ -1,5 +1,4 @@
 from preparation import *
-import os.path
 import subprocess, sys
 
 class AboutInfo():
@@ -26,6 +25,11 @@ class AboutInfo():
 
     def show(self):
         self.__addInfo()
-        opener = "open" if sys.platform == "darwin" else "xdg-open"
-        subprocess.call([opener, self.path])
-
+        # 获取系统类型，根据类型用对于语句打开应用
+        # 注：作者在64位win10系统下测试为'win32'，其他情况未测试，请自行测试
+        sysType = sys.platform
+        if sysType == 'win32':
+            subprocess.call(['start', self.path],shell=True)
+        else:
+            opener = "open" if sysType == "darwin" else "xdg-open"
+            subprocess.call([opener, self.path])  
