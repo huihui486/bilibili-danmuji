@@ -47,14 +47,14 @@ initlineheight = 40
 initusercolor = '#ff6600'
 initcomcolor = '#006600'
 initfont = '宋体'
-initbackground = os.getcwd() + r'\config\background_70.png'
+initbackground = os.path.join("config", "background_70.png")
 
 
 '''
 配置文件路径
 '''
-iconPath = os.getcwd() + r'\config\icon.jpg'
-settingPath = os.getcwd() + r'\config\BiliComment.xlsx'
+iconPath = os.path.join("config", "icon.jpg")
+settingPath = os.path.join("config", "BiliComment.xlsx")
 
 
 
