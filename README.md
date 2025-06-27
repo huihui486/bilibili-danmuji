@@ -17,7 +17,6 @@
 - CSDN博客：[https://blog.csdn.net/Sharp486/article/details/122516917](https://blog.csdn.net/Sharp486/article/details/122516917)
 
 2. 个人主页
-- B站：[@了不起的灰灰](https://space.bilibili.com/12910396)
 - gitee：[@huihui486](https://gitee.com/huihui486)
 - github：[@huihui486](https://github.com/huihui486)
 - CSDN：[@Sharp486](https://blog.csdn.net/Sharp486)
