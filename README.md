@@ -15,7 +15,7 @@
 - gitee仓库：[https://gitee.com/huihui486/bilibili-danmuji](https://gitee.com/huihui486/bilibili-danmuji)
 - B站视频教程：[https://www.bilibili.com/video/BV1LP4y177sa](https://www.bilibili.com/video/BV1LP4y177sa)
 - CSDN博客：[https://blog.csdn.net/Sharp486/article/details/122516917](https://blog.csdn.net/Sharp486/article/details/122516917)
-- 个人网站博客：[https://huihui486.github.io/2023/01/17/B%E7%AB%99%E7%9B%B4%E6%92%AD%E5%BC%B9%E5%B9%95%E5%A7%AC/](https://huihui486.github.io/2023/01/17/B%E7%AB%99%E7%9B%B4%E6%92%AD%E5%BC%B9%E5%B9%95%E5%A7%AC/)
+- 个人网站博客：[https://huihui486.github.io/2023/01/17/B站直播弹幕姬/](https://huihui486.github.io/2023/01/17/B%E7%AB%99%E7%9B%B4%E6%92%AD%E5%BC%B9%E5%B9%95%E5%A7%AC/)
 
 2. 个人主页
 - github：[@huihui486](https://github.com/huihui486)
